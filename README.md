@@ -6,7 +6,7 @@ Generate a random password with selected characters.
 ## Built With
 * HTML
 * CSS
-* Java
+* JavaScript
 
 ## Website
 https://mixedbeans.github.io/password-generator/

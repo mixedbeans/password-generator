@@ -43,15 +43,28 @@ var generatePassword = function() {
   }
 
   // if answer no to all restart
-  if (passChar === '') {
+  if (passChar === 'null') {
     window.alert("You must choose at least one character type!");
     charType();
   }    
+
+  // start final password as blank to add to it
+  var finalPass = ('');
+
+  //random number function off google
+  function randomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min) + min);
+  }
+
+  // loop to create pass
+  for (var i = 0; i < passLength; i++) {
+    finalPass += passChar[randomNumber(0, passChar.length)];
+  } 
+
+  console.log(finalPass);
 }
 
 
-
-//
 
 
 // Get references to the #generate element

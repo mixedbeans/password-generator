@@ -12,5 +12,4 @@ Generate a random password with selected characters.
 https://mixedbeans.github.io/password-generator/
 
 ## Contribution
-Made with ❤️ by Spencer Biehn
-
+Made with ❤️ by Spencer Rosewood
